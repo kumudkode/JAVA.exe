@@ -67,5 +67,3 @@ Before using the application, the sender's Google account **must** have a **Goog
 ## 🤝 Contributing
 
 This project is currently maintained by **[KumudKode]**. If you have suggestions or encounter issues, please open an issue in the repository.
-
-Would you like me to generate a simple, commented Java code snippet demonstrating how to send an email using the JavaMail API, which would be central to this project?
