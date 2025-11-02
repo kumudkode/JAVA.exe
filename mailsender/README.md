@@ -48,6 +48,21 @@ Before using the application, the sender's Google account **must** have a **Goog
 1.  Enable **2-Step Verification** on your Google Account.
 2.  Generate a new **App Password** for this application (e.g., choose "Mail" and "Windows Computer" for the app and device).
 3.  Use the generated App Password, **not** your regular Google password, in the application's login fields.
+### **App Password Generation Steps**
+1.  Go to your Google Account settings.
+2.  Navigate to the **Security** section.
+<br> <img height=100px; src="../image/google-auth/google1.png">
+3.  Under **"Signing in to Google,"** select **App Passwords**.
+<br> 
+<img height=100px; src="../image/google-auth/google2.png">
+4.  You may need to sign in again for security purposes.
+5. Enter App Name for which you want to generate the password.
+6.  Click **Generate** to create the App Password.
+<br> <img height=100px; src="../image/google-auth/google3.png">
+7.  Copy the generated password and use it in the Mail Sender application
+<br> <img height=100px; src="../image/google-auth/finalgoogle.png">
+8. **Don't forget to SAVE password cause it will be only one time shown**.
+<br>
 
 ### **Installation**
 
