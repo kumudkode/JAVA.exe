@@ -51,16 +51,16 @@ Before using the application, the sender's Google account **must** have a **Goog
 ### **App Password Generation Steps**
 1.  Go to your Google Account settings.
 2.  Navigate to the **Security** section.
-<br> <img height=100px; src="../image/google-auth/google1.png">
+<br> <img height=100px; src="image/google-auth/google1.png">
 3.  Under **"Signing in to Google,"** select **App Passwords**.
 <br> 
-<img height=100px; src="../image/google-auth/google2.png">
+<img height=100px; src="image/google-auth/google2.png">
 4.  You may need to sign in again for security purposes.
 5. Enter App Name for which you want to generate the password.
 6.  Click **Generate** to create the App Password.
-<br> <img height=100px; src="../image/google-auth/google3.png">
+<br> <img height=100px; src="image/google-auth/google3.png">
 7.  Copy the generated password and use it in the Mail Sender application
-<br> <img height=100px; src="../image/google-auth/finalgoogle.png">
+<br> <img height=100px; src="image/google-auth/finalgoogle.png">
 8. **Don't forget to SAVE password cause it will be only one time shown**.
 <br>
 
