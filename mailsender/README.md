@@ -8,6 +8,9 @@ A user-friendly, Java-based **Graphical User Interface (GUI)** application desig
 
 This project provides a straightforward way for Windows users to send emails without needing to open a web browser or a full-featured email client. The application is packaged as a standard **Windows executable (`.exe`) file**, making it easy to download, install, and run.
 
+* Product Image
+<br> <img height=300px; src="image/image.png">
+
 ### **Who is it for?**
 
 * **Casual Users** who need a simple, no-fuss tool to send occasional emails.
@@ -78,7 +81,15 @@ Before using the application, the sender's Google account **must** have a **Goog
 4.  Click the **Send** button.
 
 ---
-
+### **Download apps**
+- Netbeans Download Link:
+https://netbeans.apache.org/front/main/download/nb24/
+- Inno Setup link
+https://jrsoftware.org/download.php/is.exe?site=1
+- launch4j
+https://sourceforge.net/projects/launch4j/files/latest/download
+- Libraries
+https://drive.google.com/drive/folders/1fIduDdQR-4tQ95dkMrr9pORLc30z04Mq?usp=sharing
 ## 🤝 Contributing
 
 This project is currently maintained by **[KumudKode]**. If you have suggestions or encounter issues, please open an issue in the repository.
