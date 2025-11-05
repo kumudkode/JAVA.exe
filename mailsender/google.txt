@@ -1,0 +1,37 @@
+String from=t1.getText();
+        String password=new String(t2.getPassword());
+        String to=t3.getText();
+        String subject=t4.getText();
+        String body=t5.getText();
+       
+        Properties prop =new Properties();
+        prop.put("mail.smtp.host","smtp.gmail.com");
+        prop.put("mail.smtp.port","465");
+        prop.put("mail.smtp.ssl.enable","true");
+        prop.put("mail.smtp.auth","true");
+        prop.put("mail.smtp.ssl.trust","*" );
+       
+        // Step 1: get session object
+        Session session = Session.getInstance(prop , new Authenticator() {
+            @Override
+            protected PasswordAuthentication getPasswordAuthentication() {
+                    // TODO Auto-generated method stub
+                    return new PasswordAuthentication(from, password);
+            }
+        });
+        // Step 2: compose the message
+        MimeMessage msg = new MimeMessage(session);
+
+        try {
+            msg.setFrom(from);// from email
+            msg.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+            msg.setSubject(subject);
+            msg.setText(body);
+
+            // Step 3: send message using transport class
+            Transport.send(msg);
+            JOptionPane.showMessageDialog(null, "Mail Send Successfully!");
+
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
